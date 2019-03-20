@@ -4,7 +4,7 @@ This application will help you to automate certain tasks in your mobile phone. I
 a short code to trigger certain action and that action will be triggered when you got a SMS with that certain
 code
 
-![alt text](https://i.ibb.co/sqs6xRf/app-android-1.png)
+![alt text](https://i.ibb.co/7JHcDyN/app-android-1.png)
 
 ## Features
 
