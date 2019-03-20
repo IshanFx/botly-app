@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1abeec</color>
+    <color name="colorPrimaryDark">#021631</color>
+    <color name="colorAccent">#212121</color>
+
+    <color name="white">#fff</color>
+
+    <!-- teal -->
+    <color name="blue_100">#03526e</color>
+
+    <color name="white_300">#FAFAFA</color>
+    <color name="white_400">#F1EDEF</color>
+    <color name="white_100">#ECECEC</color>
+
+    <!--ash-->
+    <color name="ash_100">#DFE4EA</color>
+    <color name="ash_dark">#4A4A4A</color>
+    <color name="ash_dark_89">#894A4A4A</color>
+</resources>

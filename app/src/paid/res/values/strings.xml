@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dialog_help">You can use this application to controll your phone functions uing SMS. Select the function which
+        you need to controll and set the code.When you send a SMS with that code to your phone It will trigger that relevent function.\n\n
+        1. Ringtone - This will change your vibrate mode to full volume ring mode.\n\n
+        2. Wifi - This will turn on your WiFi\n\n
+        3. Location - This will send your phone last known location back to the phone which you sent a SMS.\n\n
+        4. Call - This will make a phone call from your phone to the phone you sent a SMS.\n\n
+    </string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.phoenix.botly.activities.home.MainActivity">
+
+    <RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.phoenix.botly.activities.home.MainActivity"
+        android:background="@color/ash_100"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            style="@style/FontMaster"
+            />
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_help"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imgHelp"
+            android:onClick="showHelpDialog"
+            android:layout_marginRight="10dp"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/featureMenuList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/app_name"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_above="@+id/adView"
+            android:layout_marginBottom="10dp"
+            />
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

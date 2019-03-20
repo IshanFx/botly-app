@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">botly</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="title_activity_near_me">Near Me</string>
+    <string name="title_activity_near_me_map">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <!-- help -->
+    <string name="dialog_help">You can use this application to controll your phone functions uing SMS. Select the function which
+        you need to controll and set the code.When you send a SMS with that code to your phone It will trigger that relevent function.\n\n
+        1. Ringtone - This will change your vibrate mode to full volume ring mode.\n\n
+        2. Wifi - This will turn on your WiFi\n\n
+        3. Location - This will send your phone last known location back to the phone which you sent a SMS.\n\n
+        This application user SMS read and send permissions and Paid version use phone Call phone permission to take call when action trigger.\n
+        I will guarantee this app will not share or logs any of your SMS and Phone logs.
+    </string>
+</resources>
